@@ -4912,7 +4912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36dd7b2ef15001e45ae2f06772813ab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunAudio: {fileID: 533037952}
+  gunAudio: {fileID: 829061930}
   winAudio: {fileID: 1631450219}
   loseAudio: {fileID: 533037952}
   sfxAudio: {fileID: 1307076426}
