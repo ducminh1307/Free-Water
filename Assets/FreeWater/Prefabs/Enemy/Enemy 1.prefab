@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2252809816153802106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 599130073905928832, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229374464615062043, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229374464615062043, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4a160f9a37f282347aba2bcc4ac8c9b5, type: 2}
+    - target: {fileID: 5468644816906125735, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_Name
+      value: Enemy 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5934113965935817571, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ad606c36402d90940b5bd30d62ad86cd, type: 3}
+    - target: {fileID: 5934113965935817571, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5980549685425081751, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: enemySO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5434d83a14c14054387f2bffe7173360, type: 2}
+    - target: {fileID: 5980549685425081751, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925526336811073696, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      propertyPath: enemySO
+      value: 
+      objectReference: {fileID: 11400000, guid: 5434d83a14c14054387f2bffe7173360, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5468644816906125735, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1667755106661149997}
+    - targetCorrespondingSourceObject: {fileID: 5468644816906125735, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6698810370533860621}
+  m_SourcePrefab: {fileID: 100100000, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+--- !u!1 &6099863921918002397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5468644816906125735, guid: 0e38d24a701363940b356a268111a18b, type: 3}
+  m_PrefabInstance: {fileID: 2252809816153802106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &-1667755106661149997
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6099863921918002397}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000000044703484, y: -0.45046043}
+  m_Size: {x: 0.25053766, y: 0.6067157}
+  m_Direction: 0
+--- !u!95 &-6698810370533860621
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6099863921918002397}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a160f9a37f282347aba2bcc4ac8c9b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
